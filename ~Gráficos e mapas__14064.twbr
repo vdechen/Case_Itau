@@ -1,0 +1,1223 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='norm_rain' inline='true' name='federated.0hj0r8g0swjyeq14voqfc089yds6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='norm_rain' name='textscan.0ge0qbw03rsl8714mygf01eorurn'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/Case_Itau' filename='norm_rain.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ge0qbw03rsl8714mygf01eorurn' name='norm_rain.csv' table='[norm_rain#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='mintemp' ordinal='1' />
+            <column datatype='real' name='maxtemp' ordinal='2' />
+            <column datatype='real' name='rainfall' ordinal='3' />
+            <column datatype='string' name='evaporation' ordinal='4' />
+            <column datatype='string' name='sunshine' ordinal='5' />
+            <column datatype='real' name='humidity9am' ordinal='6' />
+            <column datatype='real' name='humidity3pm' ordinal='7' />
+            <column datatype='real' name='pressure9am' ordinal='8' />
+            <column datatype='real' name='pressure3pm' ordinal='9' />
+            <column datatype='real' name='cloud9am' ordinal='10' />
+            <column datatype='real' name='cloud3pm' ordinal='11' />
+            <column datatype='real' name='temp9am' ordinal='12' />
+            <column datatype='real' name='temp3pm' ordinal='13' />
+            <column datatype='real' name='temp' ordinal='14' />
+            <column datatype='real' name='humidity' ordinal='15' />
+            <column datatype='real' name='precipitation3pm' ordinal='16' />
+            <column datatype='real' name='precipitation9am' ordinal='17' />
+            <column datatype='date' name='date' ordinal='18' />
+            <column datatype='string' name='location' ordinal='19' />
+            <column datatype='integer' name='raintoday_Yes' ordinal='20' />
+            <column datatype='integer' name='raintomorrow_Yes' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ge0qbw03rsl8714mygf01eorurn' name='norm_rain.csv' table='[norm_rain#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='mintemp' ordinal='1' />
+            <column datatype='real' name='maxtemp' ordinal='2' />
+            <column datatype='real' name='rainfall' ordinal='3' />
+            <column datatype='string' name='evaporation' ordinal='4' />
+            <column datatype='string' name='sunshine' ordinal='5' />
+            <column datatype='real' name='humidity9am' ordinal='6' />
+            <column datatype='real' name='humidity3pm' ordinal='7' />
+            <column datatype='real' name='pressure9am' ordinal='8' />
+            <column datatype='real' name='pressure3pm' ordinal='9' />
+            <column datatype='real' name='cloud9am' ordinal='10' />
+            <column datatype='real' name='cloud3pm' ordinal='11' />
+            <column datatype='real' name='temp9am' ordinal='12' />
+            <column datatype='real' name='temp3pm' ordinal='13' />
+            <column datatype='real' name='temp' ordinal='14' />
+            <column datatype='real' name='humidity' ordinal='15' />
+            <column datatype='real' name='precipitation3pm' ordinal='16' />
+            <column datatype='real' name='precipitation9am' ordinal='17' />
+            <column datatype='date' name='date' ordinal='18' />
+            <column datatype='string' name='location' ordinal='19' />
+            <column datatype='integer' name='raintoday_Yes' ordinal='20' />
+            <column datatype='integer' name='raintomorrow_Yes' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mintemp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mintemp]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>mintemp</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maxtemp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[maxtemp]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>maxtemp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rainfall</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rainfall]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>rainfall</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evaporation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[evaporation]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>evaporation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sunshine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sunshine]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>sunshine</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>humidity9am</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[humidity9am]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>humidity9am</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>humidity3pm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[humidity3pm]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>humidity3pm</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pressure9am</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pressure9am]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>pressure9am</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pressure3pm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pressure3pm]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>pressure3pm</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud9am</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cloud9am]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>cloud9am</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud3pm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cloud3pm]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>cloud3pm</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>temp9am</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[temp9am]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>temp9am</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>temp3pm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[temp3pm]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>temp3pm</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>temp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[temp]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>temp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>humidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[humidity]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>humidity</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>precipitation3pm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[precipitation3pm]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>precipitation3pm</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>precipitation9am</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[precipitation9am]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>precipitation9am</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>raintoday_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[raintoday_Yes]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>raintoday_Yes</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>raintomorrow_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[raintomorrow_Yes]</local-name>
+            <parent-name>[norm_rain.csv]</parent-name>
+            <remote-alias>raintomorrow_Yes</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='norm_rain.csv' datatype='table' name='[__tableau_internal_object_id__].[norm_rain.csv_134AA10E61154AC3B187936C744BBBE5]' role='measure' type='quantitative' />
+      <column caption='Cloud3Pm' datatype='real' name='[cloud3pm]' role='dimension' semantic-role='' type='ordinal' />
+      <column caption='Cloud9Am' datatype='real' name='[cloud9am]' role='dimension' type='ordinal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Evaporation' datatype='string' name='[evaporation]' role='dimension' type='nominal' />
+      <column caption='Humidity3Pm' datatype='real' name='[humidity3pm]' role='dimension' type='ordinal' />
+      <column caption='Humidity9Am' datatype='real' name='[humidity9am]' role='dimension' type='ordinal' />
+      <column caption='Humidity' datatype='real' name='[humidity]' role='dimension' type='ordinal' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[City].[Name]'>
+          <semantic-value key='&quot;BadgerysCreek&quot;' value='&quot;Sidney&quot;' />
+          <semantic-value key='&quot;MelbourneAirport&quot;' value='&quot;Melbourne&quot;' />
+          <semantic-value key='&quot;PearceRAAF&quot;' value='&quot;Bullsbrook&quot;' />
+          <semantic-value key='&quot;PerthAirport&quot;' value='&quot;Perth&quot;' />
+          <semantic-value key='&quot;SydneyAirport&quot;' value='&quot;Sidney&quot;' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;Dartmoor&quot;' value='-37.93' />
+          <semantic-value key='&quot;Mildura&quot;' value='-34.18' />
+          <semantic-value key='&quot;MountGinini&quot;' value='-35.530000000000001' />
+          <semantic-value key='&quot;Nhil&quot;' value='-36.329999999999998' />
+          <semantic-value key='&quot;NorahHead&quot;' value='-33.280000000000001' />
+          <semantic-value key='&quot;NorfolkIsland&quot;' value='-29.030000000000001' />
+          <semantic-value key='&quot;Penrith&quot;' value='-33.75' />
+          <semantic-value key='&quot;SalmonGums&quot;' value='-32.950000000000003' />
+          <semantic-value key='&quot;Tuggeranong&quot;' value='-35.420000000000002' />
+          <semantic-value key='&quot;Uluru&quot;' value='-25.344999999999999' />
+          <semantic-value key='&quot;Walpole&quot;' value='-34.979999999999997' />
+          <semantic-value key='&quot;Watsonia&quot;' value='-37.700000000000003' />
+          <semantic-value key='&quot;Williamtown&quot;' value='-32.799999999999997' />
+          <semantic-value key='&quot;Witchcliffe&quot;' value='-34.030000000000001' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;Dartmoor&quot;' value='141.28' />
+          <semantic-value key='&quot;Mildura&quot;' value='142.15000000000001' />
+          <semantic-value key='&quot;MountGinini&quot;' value='148.78' />
+          <semantic-value key='&quot;Nhil&quot;' value='141.65000000000001' />
+          <semantic-value key='&quot;NorahHead&quot;' value='151.56999999999999' />
+          <semantic-value key='&quot;NorfolkIsland&quot;' value='167.94999999999999' />
+          <semantic-value key='&quot;Penrith&quot;' value='150.69' />
+          <semantic-value key='&quot;SalmonGums&quot;' value='121.65000000000001' />
+          <semantic-value key='&quot;Tuggeranong&quot;' value='149.08000000000001' />
+          <semantic-value key='&quot;Uluru&quot;' value='131.03' />
+          <semantic-value key='&quot;Walpole&quot;' value='116.7' />
+          <semantic-value key='&quot;Watsonia&quot;' value='145.08000000000001' />
+          <semantic-value key='&quot;Williamtown&quot;' value='151.84' />
+          <semantic-value key='&quot;Witchcliffe&quot;' value='115.09999999999999' />
+        </semantic-values>
+      </column>
+      <column caption='Maxtemp' datatype='real' name='[maxtemp]' role='dimension' type='ordinal' />
+      <column caption='Mintemp' datatype='real' name='[mintemp]' role='dimension' type='ordinal' />
+      <column caption='Precipitation3Pm' datatype='real' name='[precipitation3pm]' role='dimension' type='ordinal' />
+      <column caption='Precipitation9Am' datatype='real' name='[precipitation9am]' role='dimension' type='ordinal' />
+      <column caption='Pressure3Pm' datatype='real' name='[pressure3pm]' role='dimension' type='ordinal' />
+      <column caption='Pressure9Am' datatype='real' name='[pressure9am]' role='dimension' type='ordinal' />
+      <column caption='Rainfall' datatype='real' name='[rainfall]' role='dimension' type='ordinal' />
+      <column caption='raintoday Yes' datatype='integer' name='[raintoday_Yes]' role='measure' type='quantitative' />
+      <column caption='raintomorrow Yes' datatype='integer' name='[raintomorrow_Yes]' role='measure' type='quantitative' />
+      <column caption='Sunshine' datatype='string' name='[sunshine]' role='dimension' type='nominal' />
+      <column caption='Temp3Pm' datatype='real' name='[temp3pm]' role='dimension' type='ordinal' />
+      <column caption='Temp9Am' datatype='real' name='[temp9am]' role='dimension' type='ordinal' />
+      <column caption='Temp' datatype='real' name='[temp]' role='dimension' type='ordinal' />
+      <column-instance column='[raintomorrow_Yes]' derivation='CountD' name='[ctd:raintomorrow_Yes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+      <column-instance column='[raintoday_Yes]' derivation='Sum' name='[sum:raintoday_Yes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[raintomorrow_Yes]' derivation='Sum' name='[sum:raintomorrow_Yes:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintoday_Yes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0hj0r8g0swjyeq14voqfc089yds6].[ctd:raintomorrow_Yes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0hj0r8g0swjyeq14voqfc089yds6].[usr:Calculation_989666085952544768:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0hj0r8g0swjyeq14voqfc089yds6].[usr:Calculation_989666085952589825:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:location:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Cairns&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nuriootpa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Woomera&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adelaide&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mildura&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tuggeranong&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BadgerysCreek&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Newcastle&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Watsonia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dartmoor&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PerthAirport&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Canberra&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PearceRAAF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ballarat&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nhil&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Williamtown&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Melbourne&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SydneyAirport&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albany&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Moree&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Uluru&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Katherine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SalmonGums&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bendigo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NorahHead&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Witchcliffe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Darwin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Portland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GoldCoast&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Richmond&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Launceston&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sydney&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MelbourneAirport&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Townsville&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cobar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Penrith&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Brisbane&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NorfolkIsland&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Wollongong&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Albury&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MountGambier&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;WaggaWagga&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hobart&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sale&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CoffsHarbour&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Perth&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AliceSprings&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MountGinini&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Walpole&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;Austrália&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='norm_rain.csv' id='norm_rain.csv_134AA10E61154AC3B187936C744BBBE5'>
+            <properties context=''>
+              <relation connection='textscan.0ge0qbw03rsl8714mygf01eorurn' name='norm_rain.csv' table='[norm_rain#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='mintemp' ordinal='1' />
+                  <column datatype='real' name='maxtemp' ordinal='2' />
+                  <column datatype='real' name='rainfall' ordinal='3' />
+                  <column datatype='string' name='evaporation' ordinal='4' />
+                  <column datatype='string' name='sunshine' ordinal='5' />
+                  <column datatype='real' name='humidity9am' ordinal='6' />
+                  <column datatype='real' name='humidity3pm' ordinal='7' />
+                  <column datatype='real' name='pressure9am' ordinal='8' />
+                  <column datatype='real' name='pressure3pm' ordinal='9' />
+                  <column datatype='real' name='cloud9am' ordinal='10' />
+                  <column datatype='real' name='cloud3pm' ordinal='11' />
+                  <column datatype='real' name='temp9am' ordinal='12' />
+                  <column datatype='real' name='temp3pm' ordinal='13' />
+                  <column datatype='real' name='temp' ordinal='14' />
+                  <column datatype='real' name='humidity' ordinal='15' />
+                  <column datatype='real' name='precipitation3pm' ordinal='16' />
+                  <column datatype='real' name='precipitation9am' ordinal='17' />
+                  <column datatype='date' name='date' ordinal='18' />
+                  <column datatype='string' name='location' ordinal='19' />
+                  <column datatype='integer' name='raintoday_Yes' ordinal='20' />
+                  <column datatype='integer' name='raintomorrow_Yes' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='wind' inline='true' name='federated.1uv6vdk1j1emh115x962t1v0duah' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wind' name='textscan.1f9fdph1uodvvl15pi18d124hh74'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/Case_Itau' filename='wind.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1f9fdph1uodvvl15pi18d124hh74' name='wind.csv' table='[wind#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='date' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='string' name='gustdir' ordinal='3' />
+            <column datatype='integer' name='gustspeed' ordinal='4' />
+            <column datatype='string' name='dir9am' ordinal='5' />
+            <column datatype='string' name='dir3pm' ordinal='6' />
+            <column datatype='integer' name='speed9am' ordinal='7' />
+            <column datatype='integer' name='speed3pm' ordinal='8' />
+            <column datatype='integer' name='locais_umidade' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1f9fdph1uodvvl15pi18d124hh74' name='wind.csv' table='[wind#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='date' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='string' name='gustdir' ordinal='3' />
+            <column datatype='integer' name='gustspeed' ordinal='4' />
+            <column datatype='string' name='dir9am' ordinal='5' />
+            <column datatype='string' name='dir3pm' ordinal='6' />
+            <column datatype='integer' name='speed9am' ordinal='7' />
+            <column datatype='integer' name='speed3pm' ordinal='8' />
+            <column datatype='integer' name='locais_umidade' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gustdir</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gustdir]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>gustdir</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gustspeed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gustspeed]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>gustspeed</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dir9am</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dir9am]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>dir9am</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dir3pm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dir3pm]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>dir3pm</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>speed9am</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[speed9am]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>speed9am</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>speed3pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[speed3pm]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>speed3pm</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locais_umidade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[locais_umidade]</local-name>
+            <parent-name>[wind.csv]</parent-name>
+            <remote-alias>locais_umidade</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='wind.csv' datatype='table' name='[__tableau_internal_object_id__].[wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Dir3Pm' datatype='string' name='[dir3pm]' role='dimension' type='nominal' />
+      <column caption='Dir9Am' datatype='string' name='[dir9am]' role='dimension' type='nominal' />
+      <column caption='Gustdir' datatype='string' name='[gustdir]' role='dimension' type='nominal' />
+      <column caption='Gustspeed' datatype='integer' name='[gustspeed]' role='measure' type='quantitative' />
+      <column caption='Locais Umidade' datatype='integer' name='[locais_umidade]' role='measure' type='quantitative' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Speed3Pm' datatype='integer' name='[speed3pm]' role='measure' type='quantitative' />
+      <column caption='Speed9Am' datatype='integer' name='[speed9am]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='wind.csv' id='wind.csv_074DD1F0DA2C4F6DAFB49382CC88454B'>
+            <properties context=''>
+              <relation connection='textscan.1f9fdph1uodvvl15pi18d124hh74' name='wind.csv' table='[wind#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='date' ordinal='1' />
+                  <column datatype='string' name='location' ordinal='2' />
+                  <column datatype='string' name='gustdir' ordinal='3' />
+                  <column datatype='integer' name='gustspeed' ordinal='4' />
+                  <column datatype='string' name='dir9am' ordinal='5' />
+                  <column datatype='string' name='dir3pm' ordinal='6' />
+                  <column datatype='integer' name='speed9am' ordinal='7' />
+                  <column datatype='integer' name='speed3pm' ordinal='8' />
+                  <column datatype='integer' name='locais_umidade' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Planilha 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wind' name='federated.1uv6vdk1j1emh115x962t1v0duah' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1uv6vdk1j1emh115x962t1v0duah'>
+            <column caption='Speed9Am' datatype='integer' name='[speed9am]' role='measure' type='quantitative' />
+            <column-instance column='[speed9am]' derivation='Sum' name='[sum:speed9am:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1uv6vdk1j1emh115x962t1v0duah].[sum:speed9am:qk]</cols>
+      </table>
+      <simple-id uuid='{9B819BF7-797D-412B-AB99-D9DA23429511}' />
+    </worksheet>
+    <worksheet name='mapa - humidade'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='norm_rain' name='federated.0hj0r8g0swjyeq14voqfc089yds6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0hj0r8g0swjyeq14voqfc089yds6'>
+            <column-instance column='[humidity]' derivation='Avg' name='[avg:humidity:qk]' pivot='key' type='quantitative' />
+            <column caption='Humidity' datatype='real' name='[humidity]' role='dimension' type='ordinal' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[City].[Name]'>
+                <semantic-value key='&quot;BadgerysCreek&quot;' value='&quot;Sidney&quot;' />
+                <semantic-value key='&quot;MelbourneAirport&quot;' value='&quot;Melbourne&quot;' />
+                <semantic-value key='&quot;PearceRAAF&quot;' value='&quot;Bullsbrook&quot;' />
+                <semantic-value key='&quot;PerthAirport&quot;' value='&quot;Perth&quot;' />
+                <semantic-value key='&quot;SydneyAirport&quot;' value='&quot;Sidney&quot;' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Dartmoor&quot;' value='-37.93' />
+                <semantic-value key='&quot;Mildura&quot;' value='-34.18' />
+                <semantic-value key='&quot;MountGinini&quot;' value='-35.530000000000001' />
+                <semantic-value key='&quot;Nhil&quot;' value='-36.329999999999998' />
+                <semantic-value key='&quot;NorahHead&quot;' value='-33.280000000000001' />
+                <semantic-value key='&quot;NorfolkIsland&quot;' value='-29.030000000000001' />
+                <semantic-value key='&quot;Penrith&quot;' value='-33.75' />
+                <semantic-value key='&quot;SalmonGums&quot;' value='-32.950000000000003' />
+                <semantic-value key='&quot;Tuggeranong&quot;' value='-35.420000000000002' />
+                <semantic-value key='&quot;Uluru&quot;' value='-25.344999999999999' />
+                <semantic-value key='&quot;Walpole&quot;' value='-34.979999999999997' />
+                <semantic-value key='&quot;Watsonia&quot;' value='-37.700000000000003' />
+                <semantic-value key='&quot;Williamtown&quot;' value='-32.799999999999997' />
+                <semantic-value key='&quot;Witchcliffe&quot;' value='-34.030000000000001' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Dartmoor&quot;' value='141.28' />
+                <semantic-value key='&quot;Mildura&quot;' value='142.15000000000001' />
+                <semantic-value key='&quot;MountGinini&quot;' value='148.78' />
+                <semantic-value key='&quot;Nhil&quot;' value='141.65000000000001' />
+                <semantic-value key='&quot;NorahHead&quot;' value='151.56999999999999' />
+                <semantic-value key='&quot;NorfolkIsland&quot;' value='167.94999999999999' />
+                <semantic-value key='&quot;Penrith&quot;' value='150.69' />
+                <semantic-value key='&quot;SalmonGums&quot;' value='121.65000000000001' />
+                <semantic-value key='&quot;Tuggeranong&quot;' value='149.08000000000001' />
+                <semantic-value key='&quot;Uluru&quot;' value='131.03' />
+                <semantic-value key='&quot;Walpole&quot;' value='116.7' />
+                <semantic-value key='&quot;Watsonia&quot;' value='145.08000000000001' />
+                <semantic-value key='&quot;Williamtown&quot;' value='151.84' />
+                <semantic-value key='&quot;Witchcliffe&quot;' value='115.09999999999999' />
+              </semantic-values>
+            </column>
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0hj0r8g0swjyeq14voqfc089yds6].[avg:humidity:qk]' max='0.8096350054161181' min='-1.2087910567771636' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hj0r8g0swjyeq14voqfc089yds6].[avg:humidity:qk]' />
+              <lod column='[federated.0hj0r8g0swjyeq14voqfc089yds6].[none:location:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hj0r8g0swjyeq14voqfc089yds6].[Latitude (generated)]</rows>
+        <cols>[federated.0hj0r8g0swjyeq14voqfc089yds6].[Longitude (generated)]</cols>
+        <page-trail-options enabled='true' />
+      </table>
+      <simple-id uuid='{8B6CD4C3-5C6F-48C9-96B5-998F886B7CEC}' />
+    </worksheet>
+    <worksheet name='raintoday/local'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='norm_rain' name='federated.0hj0r8g0swjyeq14voqfc089yds6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0hj0r8g0swjyeq14voqfc089yds6'>
+            <column-instance column='[humidity]' derivation='Avg' name='[avg:humidity:qk]' pivot='key' type='quantitative' />
+            <column caption='Humidity' datatype='real' name='[humidity]' role='dimension' type='ordinal' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[City].[Name]'>
+                <semantic-value key='&quot;BadgerysCreek&quot;' value='&quot;Sidney&quot;' />
+                <semantic-value key='&quot;MelbourneAirport&quot;' value='&quot;Melbourne&quot;' />
+                <semantic-value key='&quot;PearceRAAF&quot;' value='&quot;Bullsbrook&quot;' />
+                <semantic-value key='&quot;PerthAirport&quot;' value='&quot;Perth&quot;' />
+                <semantic-value key='&quot;SydneyAirport&quot;' value='&quot;Sidney&quot;' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Dartmoor&quot;' value='-37.93' />
+                <semantic-value key='&quot;Mildura&quot;' value='-34.18' />
+                <semantic-value key='&quot;MountGinini&quot;' value='-35.530000000000001' />
+                <semantic-value key='&quot;Nhil&quot;' value='-36.329999999999998' />
+                <semantic-value key='&quot;NorahHead&quot;' value='-33.280000000000001' />
+                <semantic-value key='&quot;NorfolkIsland&quot;' value='-29.030000000000001' />
+                <semantic-value key='&quot;Penrith&quot;' value='-33.75' />
+                <semantic-value key='&quot;SalmonGums&quot;' value='-32.950000000000003' />
+                <semantic-value key='&quot;Tuggeranong&quot;' value='-35.420000000000002' />
+                <semantic-value key='&quot;Uluru&quot;' value='-25.344999999999999' />
+                <semantic-value key='&quot;Walpole&quot;' value='-34.979999999999997' />
+                <semantic-value key='&quot;Watsonia&quot;' value='-37.700000000000003' />
+                <semantic-value key='&quot;Williamtown&quot;' value='-32.799999999999997' />
+                <semantic-value key='&quot;Witchcliffe&quot;' value='-34.030000000000001' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Dartmoor&quot;' value='141.28' />
+                <semantic-value key='&quot;Mildura&quot;' value='142.15000000000001' />
+                <semantic-value key='&quot;MountGinini&quot;' value='148.78' />
+                <semantic-value key='&quot;Nhil&quot;' value='141.65000000000001' />
+                <semantic-value key='&quot;NorahHead&quot;' value='151.56999999999999' />
+                <semantic-value key='&quot;NorfolkIsland&quot;' value='167.94999999999999' />
+                <semantic-value key='&quot;Penrith&quot;' value='150.69' />
+                <semantic-value key='&quot;SalmonGums&quot;' value='121.65000000000001' />
+                <semantic-value key='&quot;Tuggeranong&quot;' value='149.08000000000001' />
+                <semantic-value key='&quot;Uluru&quot;' value='131.03' />
+                <semantic-value key='&quot;Walpole&quot;' value='116.7' />
+                <semantic-value key='&quot;Watsonia&quot;' value='145.08000000000001' />
+                <semantic-value key='&quot;Williamtown&quot;' value='151.84' />
+                <semantic-value key='&quot;Witchcliffe&quot;' value='115.09999999999999' />
+              </semantic-values>
+            </column>
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column caption='raintomorrow Yes' datatype='integer' name='[raintomorrow_Yes]' role='measure' type='quantitative' />
+            <column-instance column='[raintomorrow_Yes]' derivation='Sum' name='[sum:raintomorrow_Yes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0hj0r8g0swjyeq14voqfc089yds6].[none:location:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]' max='1087' min='115' num-steps='4' palette='red_blue_diverging_10_0' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hj0r8g0swjyeq14voqfc089yds6].[none:location:nk]</rows>
+        <cols>[federated.0hj0r8g0swjyeq14voqfc089yds6].[avg:humidity:qk]</cols>
+      </table>
+      <simple-id uuid='{AFD798C0-84F2-4B94-9D07-69D457DC9433}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='mapa austrália '>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='61250' id='3' is-scaled='1' param='C:/Users/Vanessa/Downloads/aust-climate-map.gif' type-v2='bitmap' w='78300' x='11800' y='22500' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' forceUpdate='true' h='61250' id='3' is-fixed='true' is-scaled='1' param='C:/Users/Vanessa/Downloads/aust-climate-map.gif' type-v2='bitmap' w='78300' x='11800' y='22500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{00E2F9BF-FA96-4D87-BB02-1FFF71E767C5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='raintoday/local'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.0hj0r8g0swjyeq14voqfc089yds6].[sum:raintomorrow_Yes:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B1FDC99C-E671-4379-8991-714383B006FD}' />
+    </window>
+    <window class='worksheet' name='mapa - humidade'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.0hj0r8g0swjyeq14voqfc089yds6].[avg:humidity:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2012</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{6CEA5FEE-F856-4D85-AC88-3B9BF5371A5F}' />
+    </window>
+    <window class='dashboard' name='mapa austrália '>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{2721C822-0483-4C80-B948-98992D69B122}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Planilha 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A02514B8-E11C-4A78-8286-DDF9B6EE4BA6}' />
+    </window>
+  </windows>
+</workbook>

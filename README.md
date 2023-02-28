@@ -1,7 +1,7 @@
 # Case_Itau
  
 # Project Goal and Description
-  The goal of this project was to create a model to predict if it may rain in Australia tomorrow, according to hystorical data. This is an Itaú Bank case study used in a hiring selection process for a data scientist role. 
+  The goal of this project was to create a model to predict if it might rain in Australia tomorrow, according to hystorical data. This is an Itaú Bank case study from  a hiring process for a data scientist role. 
   
 # Technologies 
   - Python (Pandas, Numpy, Seaborn, SkLearn, Statsmodels)

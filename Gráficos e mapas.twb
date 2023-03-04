@@ -14415,8 +14415,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='27' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' forceUpdate='true' h='61250' id='3' is-fixed='true' is-scaled='1' param='C:/Users/Vanessa/Downloads/aust-climate-map.gif' type-v2='bitmap' w='78300' x='11800' y='22500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -14441,7 +14441,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='72'>
-    <window class='worksheet' maximized='true' name='raintoday/local'>
+    <window class='worksheet' name='raintoday/local'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -14481,7 +14481,7 @@
       </viewpoint>
       <simple-id uuid='{B1FDC99C-E671-4379-8991-714383B006FD}' />
     </window>
-    <window class='dashboard' name='mapa austrália '>
+    <window class='dashboard' maximized='true' name='mapa austrália '>
       <viewpoints />
       <active id='4' />
       <simple-id uuid='{2721C822-0483-4C80-B948-98992D69B122}' />
